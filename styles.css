@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 10px;
+}
+
+.page-header {
+    display: flex;
+    width: 100%;
+    height: 7%;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+}
+
+.nav-bar {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    column-gap: 4em;
+
+}
+
+.nav-bar > .MS-logo {
+    width: 180px;
+    height: 30px;
+}
+
+.nav-bar > ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    column-gap: 2em;
+}
+
+.page-header > .sign-in{
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 10px;
+    align-items: center;
+}
+.sign-in img{
+    height: 70%;
+}
+
+.welcome-content{
+    padding: 10% 4%;
+    line-height: 2.5em;
+    position: relative;
+    top: -500px;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.options .sign-in-btn{
+background-color: tomato;
+padding: 5px 50px;
+color: white;
+}
+.options .get-office-btn{
+border: 1px solid tomato;
+color: tomato;
+padding: 5px 50px;
+}
+
+.bg-image{
+    height: 470px;
+}
+.hero{
+    width: 100%;
+    height: fit-content;
+}
+
+
+.hero > img{
+    width: 100%;
+}
+
+.bg-image .sign-up{
+    color: white;
+}
+
+.office-suite{
+    width: 945px;
+    margin: 70px auto;
+}
+
+.office-suite >h2{
+    text-align: center;
+    word-spacing: 2px;
+    font-size: 2em;
+}
+
+.office-suite-icons{
+    display: flex;
+    margin: 15px;
+    justify-content: space-evenly;
+}
+
+.office-suite-icons figcaption{
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+}
+
+footer img{
+    height: 30px;
+}
